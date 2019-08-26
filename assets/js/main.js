@@ -23,11 +23,11 @@ jQuery(document).ready(function($) {
     $('.level-label').tooltip();
 
     /* Github Calendar - https://github.com/IonicaBizau/github-calendar */
-    new GitHubCalendar("#github-graph", "cryptecgaming");
+    new GitHubCalendar("#github-graph", "kyllianlissens");
     
     
     /* Github Activity Feed - https://github.com/caseyscarborough/github-activity */
-    GitHubActivity.feed({ username: "cryptecgaming", selector: "#ghfeed" });
+    GitHubActivity.feed({ username: "kyllianlissens", selector: "#ghfeed" });
 
 
 });
