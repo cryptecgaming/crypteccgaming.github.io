@@ -1,9 +1,9 @@
 /*!   
- * Template Name: Developer - Responsive Website Template for Developers
- * Version: 2.1
+ * Template Name: Developer - Portfolio Landing Page Template for Developers
+ * Version: 2.5
  * Author: Xiaoying Riley
  * Twitter: @3rdwave_themes
- * License: Creative Commons Attribution 3.0 License
+ * Copyright: 3rd Wave Media Ltd.
  * Website: https://themes.3rdwavemedia.com/
 */
 body {
@@ -57,6 +57,9 @@ a:focus {
 
 .btn:focus, a.btn:focus {
   color: #fff;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
 }
 
 a.btn-cta-primary, .btn-cta-primary {
@@ -81,10 +84,13 @@ a.btn-cta-secondary, .btn-cta-secondary {
   text-transform: uppercase;
 }
 
-a.btn-cta-secondary:hover, .btn-cta-secondary:hover {
+a.btn-cta-secondary:hover, a.btn-cta-secondary:not(:disabled):not(.disabled):active:focus, .btn-cta-secondary:hover, .btn-cta-secondary:not(:disabled):not(.disabled):active:focus {
   background: #3893bd;
   border: 1px solid #3893bd;
   color: #fff;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
 }
 
 .text-highlight {
@@ -422,7 +428,7 @@ a.dotted-link:hover {
 }
 
 .skills .skillset .level-title {
-  font-size: 16px;
+  font-size: 14px;
   position: relative;
   margin-top: 0;
   margin-bottom: 10;
